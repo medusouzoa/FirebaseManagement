@@ -56,5 +56,24 @@ namespace Database
         Debug.Log("No data found.");
       }
     }
+       // private IEnumerator UpdateMoney()
+    // {
+    //   //Set the currently logged in user kills
+    //   Task databaseTask = databaseReference.Child("userData").Child(user.UserId)
+    //     .Child("money").SetValueAsync(200);
+    //
+    //   yield return new WaitUntil(predicate: () => databaseTask.IsCompleted);
+    //
+    //   if (databaseTask.Exception != null)
+    //   {
+    //     Debug.LogWarning(message: $"Failed to register task with {databaseTask.Exception}");
+    //   }
+    //   else
+    //   {
+    //     Debug.Log("Kills are updated");
+    //     //Kills are now updated
+    //   }
+    // }
+
   }
 }
